@@ -1,0 +1,19 @@
+Examples:
+(Currently very experimental, probably will change dependant on my mood when writing the CodeGen lol)
+
+___________________________________________________
+
+let Foo = "BarBaz"
+print(Foo)
+___________________________________________________
+
+for (let i = 0; i < 10; i++) {
+    print(i)
+}
+___________________________________________________
+
+fn Foo(Bar, Baz) {
+    print(Bar + Baz)
+    return Bar + Baz
+}
+___________________________________________________
